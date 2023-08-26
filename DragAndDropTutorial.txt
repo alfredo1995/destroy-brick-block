@@ -111,6 +111,7 @@ IDropHandler é uma interface usada para implementar funcionalidades de manipula
 
 4°) Alterar o movimento exatamente na mesma taxa (proporcionalmente 1:1) que o ponteiro do mouse ou toque  (tamanho da tela ou da resolução)
 
+	//Este método é chamado continuamente enquanto o usuário arrasta o objeto.
         //Se você arrastar o ponteiro do mouse 10 pixels em uma direção, o objeto também se moverá 10 pixels nessa mesma direção.
 	
 	*referênciar o componente Canvas 	
